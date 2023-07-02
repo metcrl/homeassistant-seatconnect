@@ -1,15 +1,15 @@
 {
-    "domain": "seatconnect",
-    "name": "Seat Connect",
-    "documentation": "https://github.com/farfar/homeassistant-seatconnect/blob/main/README.md",
-    "issue_tracker": "https://github.com/farfar/homeassistant-seatconnect/issues",
-    "dependencies": [],
-    "config_flow": true,
-    "codeowners": ["@Farfar"],
-    "requirements": [
-        "seatconnect>=1.1.6",
-        "homeassistant>=2021.12.0"
-    ],
-    "version": "1.1.5",
-    "iot_class": "cloud_polling"
+  "domain": "seatconnect",
+  "name": "Seat Connect",
+  "documentation": "https://github.com/farfar/homeassistant-seatconnect/blob/main/README.md",
+  "issue_tracker": "https://github.com/farfar/homeassistant-seatconnect/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@Farfar"],
+  "requirements": [
+    "git+https://github.com/rliegmann/seatconnect.git@af320317e7c0579a2528c9d0a9759176ab5be07a#seatconnect==1.1.7",
+    "homeassistant>=2021.12.0"
+  ],
+  "version": "1.1.6",
+  "iot_class": "cloud_polling"
 }

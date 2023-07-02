@@ -1,1 +1,1 @@
-seatconnect>=1.1.6
+git+https://github.com/rliegmann/seatconnect.git@af320317e7c0579a2528c9d0a9759176ab5be07a#seatconnect
